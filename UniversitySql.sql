@@ -85,24 +85,24 @@ foreign key(ID) references instructor(ID),
 foreign key(course_id,sec_id,semester,year) references section (course_id,sec_id,semester,year)
 );
 
-INSERT INTO department(dept_name,building,budget) value("Engineering","D-block",300);
-INSERT INTO department(dept_name,building,budget) value("English","A-block",100);
-INSERT INTO department(dept_name,building,budget) value("Art","B-block",50);
+INSERT INTO department(dept_name,building,budget) values("Engineering","D-block",300);
+INSERT INTO department(dept_name,building,budget) values("English","A-block",100);
+INSERT INTO department(dept_name,building,budget) values("Art","B-block",50);
 
-INSERT INTO student (ID,name,tot_cred,dept_name) value(1,"Irmak",30,"Engineering");
-INSERT INTO student (ID,name,tot_cred,dept_name) value(2,"Gözde",30,"Engineering");
-INSERT INTO student (ID,name,tot_cred,dept_name) value(3,"Göktuğ",20,"English");
-INSERT INTO student (ID,name,tot_cred,dept_name) value(4,"Fatma",20,"English");
-INSERT INTO student (ID,name,tot_cred,dept_name) value(5,"Safiyye",10,"Art");
-INSERT INTO student (ID,name,tot_cred,dept_name) value(6,"Melih",10,"Art");
+INSERT INTO student (ID,name,tot_cred,dept_name) values(1,"Irmak",30,"Engineering");
+INSERT INTO student (ID,name,tot_cred,dept_name) values(2,"Gözde",30,"Engineering");
+INSERT INTO student (ID,name,tot_cred,dept_name) values(3,"Göktuğ",20,"English");
+INSERT INTO student (ID,name,tot_cred,dept_name) values(4,"Fatma",20,"English");
+INSERT INTO student (ID,name,tot_cred,dept_name) values(5,"Safiyye",10,"Art");
+INSERT INTO student (ID,name,tot_cred,dept_name) values(6,"Melih",10,"Art");
 
 
-INSERT INTO instructor (ID,name,dept_name,salary) value(8,"Yakup","Engineering",100000);
-INSERT INTO instructor (ID,name,dept_name,salary) value(9,"Alparslan","Engineering",1);
-INSERT INTO instructor (ID,name,dept_name,salary) value(10,"Gamze","English",10);
-INSERT INTO instructor (ID,name,dept_name,salary) value(11,"Fatme","English",30);
-INSERT INTO instructor (ID,name,dept_name,salary) value(12,"Ceren","Art",40);
-INSERT INTO instructor (ID,name,dept_name,salary) value(13,"Buse","Art",50);
+INSERT INTO instructor (ID,name,dept_name,salary) values(8,"Yakup","Engineering",100000);
+INSERT INTO instructor (ID,name,dept_name,salary) values(9,"Alparslan","Engineering",100000);
+INSERT INTO instructor (ID,name,dept_name,salary) values(10,"Gamze","English",60000);
+INSERT INTO instructor (ID,name,dept_name,salary) values(11,"Fatme","English",30000);
+INSERT INTO instructor (ID,name,dept_name,salary) values(12,"Ceren","Art",40000);
+INSERT INTO instructor (ID,name,dept_name,salary) values(13,"Buse","Art",50000);
 
 
 
